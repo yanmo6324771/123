@@ -64,7 +64,7 @@ class Frame(Base):
             "header",
             [
                 put_html(Icon.ALAS).style("--header-icon--"),
-                put_text("AlasGG").style("--header-text--"),
+                put_text("本分支已合并入20230309内，将被删除").style("--header-text--"),
                 put_scope("header_status"),
                 put_scope("header_title"),
             ],

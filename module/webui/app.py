@@ -1281,7 +1281,7 @@ class AlasGUI(Frame):
 
     def run(self) -> None:
         # setup gui
-        set_env(title="AlasGG", output_animation=False)
+        set_env(title="本分支已合并入20230309内，将被删除", output_animation=False)
         add_css(filepath_css("alas"))
         if self.is_mobile:
             add_css(filepath_css("alas-mobile"))
